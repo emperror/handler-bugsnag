@@ -18,7 +18,17 @@ go get handler.emperror.dev/bugsnag
 ## Usage
 
 ```go
+package main
 
+import (
+	"handler.emperror.dev/bugsnag"
+)
+
+func main() {
+	apiKey := "key"
+
+	handler := bugsnag.New(apiKey)
+}
 ```
 
 
