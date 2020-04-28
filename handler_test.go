@@ -4,7 +4,7 @@ package bugsnag_test
 import (
 	"github.com/bugsnag/bugsnag-go"
 
-	bugsnaghandler "handler.emperror.dev/bugsnag"
+	bugsnaghandler "emperror.dev/handler/bugsnag"
 )
 
 func ExampleNew() {
